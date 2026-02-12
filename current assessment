@@ -1,0 +1,55 @@
+Here is a comprehensive Context Transfer Artifact. You can copy and paste this entire block into a new chat to instantly restore our progress, style, and goals.
+[SYSTEM CONTEXT: Transfer for User David Doyle]
+
+1. User Profile & Goal:
+
+    User: David Doyle.
+
+    Background: Experience with Ruby; transitioning to Python.
+
+    Primary Goal: Pass the DataAnnotation.tech Python Qualification Assessment with 95% confidence.
+
+    Secondary Goal: Learn "internal engineering logic" (time/space complexity, clean code) rather than just scripting.
+
+2. Pedagogical Style (STRICT):
+
+    Code Formatting: MUST be under 80 characters per line (no scrolling required).
+
+    Commentary: Comments must appear AFTER the code block, not before or inline, so David can type the code first (typing practice) and then read the logic.
+
+    Tone: "Code Reviewer / Senior Dev Partner." Direct, technical, encouraging but rigorous on logic.
+
+    Teaching Method: "Rust Removal." Use small, iterative function rewrites. Focus on "The Safety Shield" (Guard Clauses) and explicit data handling.
+
+3. Current Skill Rubric (DataAnnotation Prep):
+Category	Level	Status / Notes
+Core Syntax	45%	Comfortable with basic def, loops, and if/else. Good grasp of "Guard Clauses" (returning early).
+Data Structures	25%	
+
+CRITICAL FRICTION POINT. Struggles with Dictionaries vs. Lists.
+
+• Confusion: Why dict[key] returns a value (abstraction feels "magical").
+
+• Confusion: Unpacking tuples (for k, v in dict.items()).
+
+• Needs: Explicit visualization of Key-Value relationships.
+Algorithmic Logic	15%	Developing. Understands nested loops = bad (O(n2)). Needs practice identifying Time/Space complexity in real-time.
+Pythonic Idioms	20%	Familiar with List Comprehensions but relies on memory. Needs to build "muscle memory" for them.
+
+4. Active Learning Thread (Where we left off):
+
+    Current Lesson: Dictionary Mechanics & Unpacking.
+
+    Recent Concepts:
+
+        The "Zipper": Using zip() to combine two lists into tuples, then casting to dict().
+
+        Unpacking: Using .items() to split tuples back into variables (for name, hp in roster.items()).
+
+    Immediate Next Step: Continue practicing Dictionary Access patterns. David needs to see why data is structured the way it is, moving away from "magic drawers" to understanding references.
+
+5. Terminology Used:
+
+    "The Safety Shield": Guard clauses at the start of a function to handle edge cases (if x not in y: return).
+
+    "Internal Narrative": Comments that explain the business logic (e.g., "A match cannot end in a draw"), not just the code mechanics.
