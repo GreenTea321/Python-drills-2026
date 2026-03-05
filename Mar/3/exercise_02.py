@@ -1,4 +1,4 @@
-word "crash"
+word = "crash"
 
 copy_one = word[:]
 # Slices from absolute start to absolute end.
