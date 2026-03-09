@@ -11,3 +11,4 @@ configured_status = configure_player(**player_data)
 # The 'speed' maps successfully.
 # 'character_name' finds no matching slot and violently halts the sequence.
 # The system raises: TypeError: configure_player() got an unexpected keyword argument 'character_name'
+
